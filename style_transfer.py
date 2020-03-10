@@ -172,7 +172,7 @@ def style_transfer(C, S, weight_C, weight_S, weight_TV, steps):
     plt.subplot(1, 3, 3)
     plt.imshow(C[0])
     plt.axis('off')
-    plt.savefig('result.jpg')
+    plt.savefig('/images/result.jpg')
     plt.show()
 
 # fix content and style layers
