@@ -22,7 +22,7 @@ Below, given the results after 1000 iterations (result, style, content):
 
 ![alt text](https://github.com/yernat-assylbekov/Style-Transfer-with-VGG19/blob/master/images/result5.jpg?raw=true)
 
-Content weight is 1e4, style weight is 5e1. I also use TV regularization with weight 0.0025. Larger number of iteration steps may give better results.
+Content weight is 1e4 and style weight is 5e1. I also use TV regularization with weight 0.0025 to reduce artifacts. Larger number of iteration steps and larger TV regularization weight may give better results.
 
 ## Usage
 
